@@ -120,6 +120,14 @@ postgresql:
     enabled: true
     size: 50Gi
     existingClaim:
+  master:
+    nodeSelector: {}
+    affinity: {}
+    tolerations: []
+  slave:
+    nodeSelector: {}
+    affinity: {}
+    tolerations: []
   resources: {}
   #  requests:
   #    memory: "1Gi"
@@ -127,9 +135,6 @@ postgresql:
   #  limits:
   #    memory: "2Gi"
   #    cpu: "1"
-  nodeSelector: {}
-  affinity: {}
-  tolerations: []
 
 ### If NOT using the PostgreSQL in this chart (postgresql.enabled=false),
 ## specify custom database details here or leave empty

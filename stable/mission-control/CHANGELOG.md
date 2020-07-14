@@ -1,9 +1,14 @@
 # JFrog Mission-Control Chart Changelog
 All changes to this chart will be documented in this file.
 
-## [4.2.0] -  Jul 6, 2020
+## [4.2.0] -  Jul 11, 2020
 * Removing insight executor for 4.5.x mission control charts.
 * Update Mission Control version to 4.5.0.
+
+## [4.1.0] - Jul 10, 2020
+* Move some postgresql values to where they should be according to the subchart
+* **IMPORTANT**
+* Added ChartCenter Helm repository in README
 
 ## [4.0.1] -  Jun 29, 2020
 * Added UPGRADES_NOTES.md for upgrading to 3.x/4.x chart versions
