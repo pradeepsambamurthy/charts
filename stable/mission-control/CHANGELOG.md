@@ -1,7 +1,7 @@
 # JFrog Mission-Control Chart Changelog
 All changes to this chart will be documented in this file.
 
-## [4.2.0] -  Jul 11, 2020
+## [4.3.0] -  Jul 27, 2020
 * Removing insight executor for 4.5.x mission control charts.
 * Update Mission Control version to 4.5.0.
 
